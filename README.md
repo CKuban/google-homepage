@@ -1,0 +1,1 @@
+With this project I am going to clone the Google.com homepage. This is my first time creating a website.
