@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+    <title>Google</title>
+</head>
+<style>
+   
+.search-bar-container {
+    text-align: center;
+    }
+
+    .button-container {
+color: black;
+background-color: rgb(233, 233, 233);
+border-radius: 3px;
+height:50px;
+width: 200px;
+position: absolute;
+text-align: center;
+margin-top: 30px;
+font-size: 15px;
+    }
+
+    input {
+        border-radius: 50px;
+        height: 50px;
+        border: 1px solid lightgray;
+        
+    }
+
+.center {
+    text-align: center;
+   padding-top: 250px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+    margin-right: 150px;
+    
+}
+
+li {
+    display: inline;
+    padding-left: 25px;
+}
+
+li a {
+    text-decoration: none;
+    color: black
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #f2f2f2;;
+   text-align: center;
+}
+
+.sign-in {
+border: Black solid 2px;
+padding-left: 23px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+color: #fff;
+background-color: #1a73e8;
+border-radius: 5px;
+}
+    
+</style>
+
+<html>
+    
+<body>
+<section id="left">
+<ul>
+    <li><a href="About.asp">About</a></li>
+    <li><a href="Store.asp">Store</a></li>
+</ul>
+</section>
+
+<section id="right">
+<ul>    
+    <li><a href="Gmail.asp">Gmail</a></li>
+    <li><a href="Images.asp">Images</a></li>
+    <li><a class="sign-in" href="Sign In.asp">Sign In</a></li>
+  </ul>
+</section>
+
+<div class="center">
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+</div>    
+
+<div class="search-bar-container">
+    <Input type="text" placeholder=" " name="search" style="width: 700px;">
+    </div>
+
+   <div>
+   <button class="button-container" style="margin-left: 800px;">Google Search</button>
+   <button class="button-container"style="margin-left: 1025px;">I'm Feeling Lucky</button>
+</div>
+
+</body>
+
+<footer>
+<div class="footer">
+        <section id="left">
+        <ul>
+            <li><a href="Advertising.asp">Advertising</a></li>
+            <li><a href="Buisness.asp">Buisness</a></li>
+            <li><a href="How Search Works.asp">How Search Works</a></li>
+        </ul>
+        </section>
+        
+        <section id="right">
+        <ul>    
+            <li><a href="Privacy.asp">Privacy</a></li>
+            <li><a href="Terms.asp">Terms</a></li>
+            <li><a href="Settings.asp">Settings</a></li>
+          </ul>
+        </section>
+    </div>
+</footer>
+</html>
